@@ -1,0 +1,16 @@
+module.exports = {
+  Franchisee: require('./franchisee'),
+  Cup: require('./cup'),
+  Lid: require('./lid'),
+  WecupCup: require('./wecup-cup'),
+  WecupLid: require('./wecup-lid'),
+  FranchiseeCup: require('./franchisee-cup'),
+  FranchiseeLid: require('./franchisee-lid'),
+  FranchiseeLog: require('./franchisee-log'),
+  PinCode: require('./pin-code'),
+  User: require('./user'),
+  UserLog: require('./user-log'),
+  UserCup: require('./user-cup'),
+  UserLid: require('./user-lid'),
+  Application: require('./application'),
+};

@@ -1,0 +1,1 @@
+module.exports = (q) => new RegExp([...q.replace(/\s/g, '')].join('\\s*'), 'i');

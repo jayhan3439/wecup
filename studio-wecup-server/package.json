@@ -1,0 +1,32 @@
+{
+  "dependencies": {
+    "awesome-phonenumber": "^3.2.0",
+    "axios": "^0.27.2",
+    "bcryptjs": "^2.4.3",
+    "cors": "^2.8.5",
+    "express": "^4.18.1",
+    "hashids": "^2.2.10",
+    "jsonwebtoken": "^8.5.1",
+    "mongoose": "^6.4.1",
+    "nodemon": "^2.0.18"
+  },
+  "name": "studio-wecup-server",
+  "version": "1.0.0",
+  "main": "app.js",
+  "scripts": {
+    "dev": "nodemon app.js",
+    "pm2:start": "NODE_ENV=production pm2 start app.js --name api -i 2",
+    "pm2:reload": "pm2 reload api"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/starshellhq/studio-wecup-server.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/starshellhq/studio-wecup-server/issues"
+  },
+  "homepage": "https://github.com/starshellhq/studio-wecup-server#readme",
+  "description": ""
+}
